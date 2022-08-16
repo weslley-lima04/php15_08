@@ -10,7 +10,7 @@ class Carros
 
 	function InformarCor()
 	{
-		echo "Cor do Carro ".$this->cor;
+		echo "Cor do Carro: ".$this->cor."<br/>";
 
 	}
 

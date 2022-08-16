@@ -3,20 +3,20 @@
 
 class Contas
 {
- var $numage;
+ var $numAge;
  var $numConta;
  var $nome;
- var $conta;
+ var $saldo;
 
 
 
 	function ExibeDados()
 	{
 
-		echo "Número da Agência: ".$this->numage."<br/>";
+		echo "Número da Agência: ".$this->numAge."<br/>";
 		echo "Número da Conta: ".$this->numConta."<br/>";
 		echo "Nome: ".$this->nome."<br/>"; 
-		echo "Conta: ".$this->conta."<br/>"; 
+		echo "Conta: ".$this->saldo."<br/>"; 
 
 	}
 
